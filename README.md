@@ -48,7 +48,7 @@ This repo is still in early development therefore, there is no release, but inst
 
 ```buildoutcfg
 # Clone repo 
-git clone https://github.com/Danfoa/slip_control.git
+git clone https://github.com/tayalmanan28/slip_control.git
 # Move to repo folder 
 cd slip_control 
 # Use pip to install repo and dependencies
