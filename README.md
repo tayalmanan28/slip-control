@@ -9,9 +9,6 @@ of animals at high-speed locomotion, and extensions of this model were to model 
 
 https://user-images.githubusercontent.com/8356912/135605031-1d53dafc-bf50-4a66-b331-90fb9c892caf.mp4
 
-*Motivation: There is a lot of research and educational content based on the SLIP model but no shared code or initiative
-that allows playing with the model control without implementing everything from scratch. The ideal scenario is for this repo to become a mechanism for people to contribute different approaches to SLIP control, visualization, debugging,
-and educational tools.*
 
 ### Main Features
 The repository offers python class objects with several utility functions to create SLIP models and plan passive or controlled trajectories, plus visualization tools for these trajectories. The main classes are:
@@ -37,7 +34,7 @@ trajectory planner for SLIP. Any modifications and enhancements are more than we
 
 ### Controllers
 
-In the `slip_control/controllers` you will find single-cycle and multi-cycle trajectory control controllers. There
+In the `slip-control/controllers` you will find single-cycle and multi-cycle trajectory control controllers. There
 is only one controller so far, but I encourage you to contribute many:
 
 - [x] Differentially Flat optimal control of SLIP: A controller of an extended version of the SLIP model using hip torque and leg force actuation. Details in [[3]] (Chapter 4.1). This controller is an adapted version of [[2]].
@@ -48,9 +45,9 @@ This repo is still in early development therefore, there is no release, but inst
 
 ```buildoutcfg
 # Clone repo 
-git clone https://github.com/tayalmanan28/slip_control.git
+git clone https://github.com/tayalmanan28/slip-control.git
 # Move to repo folder 
-cd slip_control 
+cd slip-control 
 # Use pip to install repo and dependencies
 pip install -e .
 ```
